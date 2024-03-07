@@ -89,9 +89,3 @@ or
 
 (hbnb) help <command>
 for a help doc on a specific command.
-
-Authors
-The AUTHORS file at the root of the repository lists all individuals who were part of the project from conception. Their full names, links, and contact information are listed below:
-
-Neo Magadani
-Samuel Stephen
