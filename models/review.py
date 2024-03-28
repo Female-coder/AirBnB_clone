@@ -1,16 +1,14 @@
 #!/usr/bin/python3
+
+"""Review Module:
+Inherits from Superclass BaseModel
+"""
+
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """ DOC DOC DOC """
-    place_id = ""
-    user_id = ""
-    text = ""
-
-
-"""
-    def __init__(self, place_id, user_id):
-        Review.place_id = place_id
-        Review.user_id = user_id
-"""
+    """Review class that inherits from BaseModel."""
+    place_id: str = ""
+    user_id: str = ""
+    text: str = ""

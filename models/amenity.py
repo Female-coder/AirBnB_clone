@@ -1,8 +1,12 @@
 #!/usr/bin/python3
-""" Doc Here """
+
+"""Amenity Module:
+Inherits from Superclass BaseModel
+"""
+
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """ DOC DOC DOC """
-    name = ""     
+    """Amenity class that inherits from BaseModel."""
+    name: str = ""

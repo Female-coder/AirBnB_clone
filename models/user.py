@@ -1,9 +1,16 @@
+#!/usr/bin/python3
+
+"""User Module:
+Inherits from Superclass BaseModel
+"""
+
 from models.base_model import BaseModel
 
+
 class User(BaseModel):
-    """ DOC DOC DOC """
-    email = ""
-    password = ""
-    first_name = ""
-    last_name = ""
-    another_variable = ""
+    """User class that inherits from BaseModel.
+    This creates the profile for user"""
+    email: str = ""
+    password: str = ""
+    first_name: str = ""
+    last_name: str = ""
